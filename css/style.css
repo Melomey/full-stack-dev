@@ -1,5 +1,58 @@
+* {
+  text-align: right;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(leaves.jpg);
+  background-size: cover;
+}
+
 h2 {
-  color: red;
+  color: #801515;
+  /* text-align: center;
+  border: 5px solid rgba(255, 170, 170, 0.5);
+  cursor: pointer; */
+}
+
+p {
+  line-height: 50 px;
   text-align: center;
-  border: 5px solid blue;
+  border: 5px solid rgba(255, 170, 170, 0.5);
+  color: green;
+  font-style: italic;
+  font-weight: bold;
+}
+
+img {
+  float: right;
+  justify-content: center;
+}
+
+footer {
+  clear: both;
+  text-align: center;
+}
+
+li {
+  list-style: none;
+  display: inline-block;
+}
+
+.webtext {
+  border: 5px dashed green;
+}
+
+.active {
+  color: red;
+}
+
+#div1 {
+  background-color: rgba(0, 0, 170, 0.5);
+}
+
+#div2 {
+  background-color: rgba(0, 170, 0, 0.5);
 }
